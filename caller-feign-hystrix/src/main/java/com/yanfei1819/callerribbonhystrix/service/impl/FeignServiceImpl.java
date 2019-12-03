@@ -1,0 +1,1 @@
+package com.yanfei1819.callerribbonhystrix.service.impl;import com.yanfei1819.callerribbonhystrix.service.FeignService;import org.springframework.stereotype.Component;/** * Created by 追梦1819 on 2019-03-27. */@Componentpublic class FeignServiceImpl implements FeignService {    @Override    public String sayHelloByFeign() {        return "error,feign";    }}

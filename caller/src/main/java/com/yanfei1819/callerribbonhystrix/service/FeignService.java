@@ -1,0 +1,1 @@
+package com.yanfei1819.callerribbonhystrix.service;import org.springframework.cloud.openfeign.FeignClient;import org.springframework.web.bind.annotation.GetMapping;/** * Created by 追梦1819 on 2019-03-27. */// @FeignClient 指定调用哪个服务@FeignClient("provider")public interface FeignService {    // 指定被调用方的接口    @GetMapping("/hello")    String sayHelloByFeign();}

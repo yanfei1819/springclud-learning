@@ -1,0 +1,1 @@
+package com.yanfei1819.callerribbonhystrix.service;/** * Created by 追梦1819 on 2019-03-27. */public interface RibbonService {    String sayHello();}
